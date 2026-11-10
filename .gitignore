@@ -1,0 +1,13 @@
+# https://dart.dev/guides/libraries/private-files
+.dart_tool/
+
+# A library: hosts resolve their own versions.
+pubspec.lock
+
+.idea
+*.iml
+
+# Isar native libraries are downloaded at run time; never commit them.
+*.dylib
+*.so
+*.dll
